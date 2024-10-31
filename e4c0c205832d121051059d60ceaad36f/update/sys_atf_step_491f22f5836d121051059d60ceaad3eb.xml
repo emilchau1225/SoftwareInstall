@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Approver = {{Parameters.Approver}}
+and State = Awaiting Approval
+and Approval = Requested
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:28:44</sys_created_on>
+        <sys_id>491f22f5836d121051059d60ceaad3eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_update_name>sys_atf_step_491f22f5836d121051059d60ceaad3eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:28:44</sys_updated_on>
+        <table>x_1046084_software_softwareinstall</table>
+        <test display_value="Software Install test1">3daba2b1836d121051059d60ceaad379</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=491f22f5836d121051059d60ceaad3eb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>491f22f5836d121051059d60ceaad3eb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:28:44</sys_created_on>
+        <sys_id>7d6faa75836d121051059d60ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:28:44</sys_updated_on>
+        <value>x_1046084_software_softwareinstall</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>491f22f5836d121051059d60ceaad3eb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:28:44</sys_created_on>
+        <sys_id>b96faa75836d121051059d60ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:28:44</sys_updated_on>
+        <value>u_approver={{parameter['3daba2b1836d121051059d60ceaad379'].u_approver}}^state=14^approval=requested^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>491f22f5836d121051059d60ceaad3eb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:28:44</sys_created_on>
+        <sys_id>f56faa75836d121051059d60ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:28:44</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=491f22f5836d121051059d60ceaad3eb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>491f22f5836d121051059d60ceaad3eb</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:28:44</sys_created_on>
+        <sys_id>756faa75836d121051059d60ceaad375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:28:44</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>u_approver={{parameter['3daba2b1836d121051059d60ceaad379'].u_approver}}^state=14^approval=requested^EQ</value>
+    </sys_element_mapping>
+</record_update>

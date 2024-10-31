@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: Fred Luddy with user Id: fred.luddy
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:56:46</sys_created_on>
+        <sys_id>13f76e3d832d121051059d60ceaad3fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_update_name>sys_atf_step_13f76e3d832d121051059d60ceaad3fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:56:46</sys_updated_on>
+        <table/>
+        <test display_value="Software install test1">0807de7583e9121051059d60ceaad3e2</test>
+        <timeout/>
+        <warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=13f76e3d832d121051059d60ceaad3fb"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>13f76e3d832d121051059d60ceaad3fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:56:46</sys_created_on>
+        <sys_id>e918227d832d121051059d60ceaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:56:46</sys_updated_on>
+        <value>5137153cc611227c000bbd1bd8cd2005</value>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=13f76e3d832d121051059d60ceaad3fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</application>
+        <file_path/>
+        <instance_id>ef819b32eb7b4e183a48f459bad0cd20</instance_id>
+        <instance_name>dev286185</instance_name>
+        <name>sys_atf_step_13f76e3d832d121051059d60ceaad3fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: Fred Luddy with user Id: fred.luddy
+
+Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>8</order><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 12:56:46</sys_created_on><sys_id>13f76e3d832d121051059d60ceaad3fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package><sys_policy/><sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope><sys_update_name>sys_atf_step_13f76e3d832d121051059d60ceaad3fb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 12:56:46</sys_updated_on><table/><test display_value="Software install test1">0807de7583e9121051059d60ceaad3e2</test><timeout/><warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
+See the documentation for Test Design Considerations</warning_message></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=13f76e3d832d121051059d60ceaad3fb"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>13f76e3d832d121051059d60ceaad3fb</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 12:56:46</sys_created_on><sys_id>e918227d832d121051059d60ceaad3e5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 12:56:46</sys_updated_on><value>5137153cc611227c000bbd1bd8cd2005</value><variable display_value="User">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=13f76e3d832d121051059d60ceaad3fb"/></record_update>]]></payload>
+        <payload_hash>944571261</payload_hash>
+        <record_name>Impersonate</record_name>
+        <reverted_from/>
+        <source>e4c04a0583e5521051059d60ceaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:56:46</sys_created_on>
+        <sys_id>ad18227d832d121051059d60ceaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dd8000d50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:56:46</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>a118227d472d1210ddf87a6de56606e7</update_guid>
+        <update_guid_history>a118227d472d1210ddf87a6de56606e7:944571261</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:09:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>350a868cdd7c4b99a21789860d9a7a19</sys_id>
+        <sys_metadata>13f76e3d832d121051059d60ceaad3fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_scope_delete display_value="">08cb9a5e65a64b3faf0093cbd33e46d9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_13f76e3d832d121051059d60ceaad3fb</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_13f76e3d832d121051059d60ceaad3fb">ad18227d832d121051059d60ceaad3e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:09:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ffdf2c1832d521051059d60ceaad3fe" extends="task" label="SoftwareInstall" max_length="40" name="x_1046084_software_softwareinstall" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="11" label="Version" mandatory="true" max_length="40" name="u_version" type="string">
+            <choice>
+                <element inactive_on_update="false" label="V1-3" sequence="2" value="13"/>
+                <element inactive_on_update="false" label="V2-2" sequence="4" value="22"/>
+                <element inactive_on_update="false" label="V1-1" sequence="0" value="11"/>
+                <element inactive_on_update="false" label="V1-2" sequence="1" value="12"/>
+                <element inactive_on_update="false" label="V2-1" sequence="3" value="21"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Software" mandatory="true" max_length="40" name="u_software" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Software1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Software2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Approver" max_length="32" name="u_approver" read_only="true" reference="sys_user" type="reference"/>
+    </element>
+</database>

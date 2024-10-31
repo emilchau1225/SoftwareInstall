@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Navigate to the 'Create New' module in the 'SoftwareInstall' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:00:47</sys_created_on>
+        <sys_id>fe2b16f983e9121051059d60ceaad3dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_update_name>sys_atf_step_fe2b16f983e9121051059d60ceaad3dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:00:47</sys_updated_on>
+        <table>x_1046084_software_softwareinstall</table>
+        <test display_value="Software install test1">0807de7583e9121051059d60ceaad3e2</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=fe2b16f983e9121051059d60ceaad3dd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>fe2b16f983e9121051059d60ceaad3dd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:00:47</sys_created_on>
+        <sys_id>1d4b5ab983e9121051059d60ceaad39c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:00:47</sys_updated_on>
+        <value>98c14709832d521051059d60ceaad333</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=fe2b16f983e9121051059d60ceaad3dd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</application>
+        <file_path/>
+        <instance_id>ef819b32eb7b4e183a48f459bad0cd20</instance_id>
+        <instance_name>dev286185</instance_name>
+        <name>sys_atf_step_fe2b16f983e9121051059d60ceaad3dd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Navigate to the 'Create New' module in the 'SoftwareInstall' application</description><display_name>Navigate to Module</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 12:00:47</sys_created_on><sys_id>fe2b16f983e9121051059d60ceaad3dd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Navigate to Module</sys_name><sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package><sys_policy/><sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope><sys_update_name>sys_atf_step_fe2b16f983e9121051059d60ceaad3dd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 12:00:47</sys_updated_on><table>x_1046084_software_softwareinstall</table><test display_value="Software install test1">0807de7583e9121051059d60ceaad3e2</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=fe2b16f983e9121051059d60ceaad3dd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>fe2b16f983e9121051059d60ceaad3dd</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 12:00:47</sys_created_on><sys_id>1d4b5ab983e9121051059d60ceaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 12:00:47</sys_updated_on><value>98c14709832d521051059d60ceaad333</value><variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=fe2b16f983e9121051059d60ceaad3dd"/></record_update>]]></payload>
+        <payload_hash>-560073812</payload_hash>
+        <record_name>Navigate to Module</record_name>
+        <reverted_from/>
+        <source>e4c04a0583e5521051059d60ceaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 12:00:47</sys_created_on>
+        <sys_id>ad4b5ab983e9121051059d60ceaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dd4cbf2e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 12:00:47</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>a14b5ab959e912107007daf4e32d9b9e</update_guid>
+        <update_guid_history>a14b5ab959e912107007daf4e32d9b9e:-560073812</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:09:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>1103e6eb7e84444a828050ca185aa4c4</sys_id>
+        <sys_metadata>fe2b16f983e9121051059d60ceaad3dd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_scope_delete display_value="">08cb9a5e65a64b3faf0093cbd33e46d9</sys_scope_delete>
+        <sys_update_name>sys_atf_step_fe2b16f983e9121051059d60ceaad3dd</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_fe2b16f983e9121051059d60ceaad3dd">ad4b5ab983e9121051059d60ceaad39e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:09:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

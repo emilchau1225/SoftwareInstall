@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>SoftwareInstallApply</name>
+        <order>100</order>
+        <roles>x_1046084_software.softwareinstall_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 02:20:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b733cac583e5521051059d60ceaad3ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SoftwareInstall</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_update_name>sys_app_application_b733cac583e5521051059d60ceaad3ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:28:02</sys_updated_on>
+        <title>SoftwareInstall</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</application>
+        <file_path/>
+        <instance_id>ef819b32eb7b4e183a48f459bad0cd20</instance_id>
+        <instance_name>dev286185</instance_name>
+        <name>sys_app_application_b733cac583e5521051059d60ceaad3ea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>SoftwareInstallApply</name><order>100</order><roles>x_1046084_software.softwareinstall_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 02:20:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b733cac583e5521051059d60ceaad3ea</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SoftwareInstall</sys_name><sys_overrides/><sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package><sys_policy/><sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope><sys_update_name>sys_app_application_b733cac583e5521051059d60ceaad3ea</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 06:28:02</sys_updated_on><title>SoftwareInstall</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1085748375</payload_hash>
+        <record_name>SoftwareInstall</record_name>
+        <reverted_from/>
+        <source>e4c04a0583e5521051059d60ceaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 06:28:02</sys_created_on>
+        <sys_id>67ebbecd83e9521051059d60ceaad307</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d1cf622b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:28:02</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>2febbecd5fe95210038ae9a0b91d0406</update_guid>
+        <update_guid_history>2febbecd5fe95210038ae9a0b91d0406:1085748375,b733cac57de55210f5d63d6fed279fed:-604829991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="SoftwareInstall">05a20749832d521051059d60ceaad39c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 06:57:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>72e0528989b249f883546bc466c87990</sys_id>
+        <sys_metadata>b733cac583e5521051059d60ceaad3ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SoftwareInstall</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_scope_delete display_value="">08cb9a5e65a64b3faf0093cbd33e46d9</sys_scope_delete>
+        <sys_update_name>sys_app_application_b733cac583e5521051059d60ceaad3ea</sys_update_name>
+        <sys_update_version display_value="sys_app_application_b733cac583e5521051059d60ceaad3ea">67ebbecd83e9521051059d60ceaad307</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:57:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

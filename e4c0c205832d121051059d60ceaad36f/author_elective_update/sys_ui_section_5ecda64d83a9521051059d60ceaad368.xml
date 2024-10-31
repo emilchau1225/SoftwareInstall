@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Description" section_id="5ecda64d83a9521051059d60ceaad368" sys_domain="global" table="x_1046084_software_softwareinstall" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 05:26:14</sys_created_on>
+            <sys_id>52cda64d83a9521051059d60ceaad383</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description" display_value="Description" name="x_1046084_software_softwareinstall" sys_domain="global" view="Default view">5ecda64d83a9521051059d60ceaad368</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 05:26:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Description</caption>
+            <header>false</header>
+            <name>x_1046084_software_softwareinstall</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-10-28 05:26:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ecda64d83a9521051059d60ceaad368</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1046084_software_softwareinstall</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+            <sys_update_name>sys_ui_section_5ecda64d83a9521051059d60ceaad368</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-10-28 05:26:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</application>
+        <file_path/>
+        <instance_id>ef819b32eb7b4e183a48f459bad0cd20</instance_id>
+        <instance_name>dev286185</instance_name>
+        <name>sys_ui_section_5ecda64d83a9521051059d60ceaad368</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Description" section_id="5ecda64d83a9521051059d60ceaad368" sys_domain="global" table="x_1046084_software_softwareinstall" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 05:26:14</sys_created_on><sys_id>52cda64d83a9521051059d60ceaad383</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Description" display_value="Description" name="x_1046084_software_softwareinstall" sys_domain="global" view="Default view">5ecda64d83a9521051059d60ceaad368</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 05:26:14</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Description</caption><header>false</header><name>x_1046084_software_softwareinstall</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 05:26:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ecda64d83a9521051059d60ceaad368</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1046084_software_softwareinstall</sys_name><sys_overrides/><sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package><sys_policy/><sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope><sys_update_name>sys_ui_section_5ecda64d83a9521051059d60ceaad368</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 05:26:13</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-524649471</payload_hash>
+        <record_name>SoftwareInstall</record_name>
+        <reverted_from/>
+        <source>e4c04a0583e5521051059d60ceaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 05:26:14</sys_created_on>
+        <sys_id>decda64d83a9521051059d60ceaad384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d196ce830000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 05:26:14</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>56cda64d1ca95210d0a232c3a74f6084</update_guid>
+        <update_guid_history>56cda64d1ca95210d0a232c3a74f6084:-524649471</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 05:26:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3bf82d13277049a09ed204f978670a40</sys_id>
+        <sys_metadata>5ecda64d83a9521051059d60ceaad368</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Description</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_parent display_value="">e2e20ac98325521051059d60ceaad392</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_scope_delete display_value="">08cb9a5e65a64b3faf0093cbd33e46d9</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5ecda64d83a9521051059d60ceaad368</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5ecda64d83a9521051059d60ceaad368">decda64d83a9521051059d60ceaad384</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 05:26:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

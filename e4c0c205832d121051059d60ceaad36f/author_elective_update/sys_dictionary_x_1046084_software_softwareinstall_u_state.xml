@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_state" table="x_1046084_software_softwareinstall">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>State</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>13</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_state</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1046084_software_softwareinstall</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 06:18:51</sys_created_on>
+        <sys_id>51d9324d83e9521051059d60ceaad3df</sys_id>
+        <sys_name>State</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_update_name>sys_dictionary_x_1046084_software_softwareinstall_u_state</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:18:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</application>
+        <file_path/>
+        <instance_id>ef819b32eb7b4e183a48f459bad0cd20</instance_id>
+        <instance_name>dev286185</instance_name>
+        <name>sys_dictionary_x_1046084_software_softwareinstall_u_state</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_state" table="x_1046084_software_softwareinstall"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>3</choice><choice_field/><choice_table/><column_label>State</column_label><comments/><create_roles/><default_value>13</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_state</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1046084_software_softwareinstall</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-28 06:18:51</sys_created_on><sys_id>51d9324d83e9521051059d60ceaad3df</sys_id><sys_name>State</sys_name><sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package><sys_policy/><sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope><sys_update_name>sys_dictionary_x_1046084_software_softwareinstall_u_state</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-28 06:18:52</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1108961412</payload_hash>
+        <record_name>SoftwareInstall.State</record_name>
+        <reverted_from/>
+        <source>e4c04a0583e5521051059d60ceaad3f0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 06:18:52</sys_created_on>
+        <sys_id>d1d9724d83e9521051059d60ceaad30b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192d1c6ff2d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:18:52</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>59d9724db0e9521046d34af14a62d60a</update_guid>
+        <update_guid_history>59d9724db0e9521046d34af14a62d60a:1108961412,11d9324da9e952101442621841eadffe:20913411</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-28 06:36:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>27498b412500401a87854c0257e18944</sys_id>
+        <sys_metadata>51d9324d83e9521051059d60ceaad3df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>State</sys_name>
+        <sys_package display_value="SoftwareInstall" source="x_1046084_software">e4c0c205832d121051059d60ceaad36f</sys_package>
+        <sys_parent display_value="">e2e20ac98325521051059d60ceaad392</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SoftwareInstall">e4c0c205832d121051059d60ceaad36f</sys_scope>
+        <sys_scope_delete display_value="">08cb9a5e65a64b3faf0093cbd33e46d9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1046084_software_softwareinstall_u_state</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1046084_software_softwareinstall_u_state">d1d9724d83e9521051059d60ceaad30b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-28 06:36:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
